@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.row{
+  text-align:center;
+}
+  .column {
+    float: left;
+    width: 20%;
+    height:40%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+
+    .imgfoto {
+      vertical-align: middle;
+      width: 30px;
+      height: 360px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+
+    .imgfoto {
+      vertical-align: middle;
+      width: 30px;
+      height: 360px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: grey;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+body{
+  background-color:#f4f6ff;
+  opacity:0.8;
+  font-family:"Alegreya";
+}
+.title{
+  width:100%;
+  font-size: 14px;
+}
+.intro {
+    padding: 1px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto ;
+    background-color: rgba(34, 49, 52, 0.9);
+    border-radius: 5px;
+  color:white;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom:45px;
+}
+.card img{
+  padding:10% 10%;
+}
+
